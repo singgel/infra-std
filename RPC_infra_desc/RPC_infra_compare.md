@@ -171,7 +171,7 @@ kite框架是一个基于thrift的RPC框架，基于微服务的架构设计，�
 
 我们使用 Go 语言研发了内部的微服务框架 kite，协议上完全兼容 Thrift。以五元组为基础单元，我们在 kite 框架上集成了服务注册和发现，分布式负载均衡，超时和熔断管理，服务降级，Method 级别的指标监控，分布式调用链追踪等功能。目前统一使用 kite 框架开发内部 Go 语言的服务，整体架构支持无限制水平扩展。
 
-公司内使用的框架rpc框架基本都是kite。这里就不过多介绍。 具体可以参考 <https://wiki.bytedance.net/pages/viewpage.action?pageId=156892135>
+公司内使用的框架rpc框架基本都是kite。这里就不过多介绍。 具体可以参考 <https://github.com/singgel/pages/viewpage.action?pageId=156892135>
 
 # gRPC框架
 

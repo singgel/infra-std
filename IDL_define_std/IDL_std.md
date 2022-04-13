@@ -1,6 +1,6 @@
 # 背景
 
-[API&脚手架总体设计](https://bytedance.feishu.cn/space/doc/doccn0Dw1i5wlegwVNQsT3)
+[API&脚手架总体设计](https://github.com/singgel/space/doc/doccn0Dw1i5wlegwVNQsT3)
 
 当前公司HTTP&RPC API缺乏管理，RPC服务端内部统一使用thrift+kite，但IDL比较散落；HTTP接口存在无文档、wiki/doc定义，thrift/pb定义等多种方式。
 
@@ -103,7 +103,7 @@ optional int64 id = 1 [(api.query)="id"];
 
 }
 
-pb的annotation具体见[接口管理Protobuf IDL定义规范（2.0）](https://bytedance.feishu.cn/space/doc/doccnXvLAWvnQwR8SbcHs6GIW5f#)
+pb的annotation具体见[接口管理Protobuf IDL定义规范（2.0）](https://github.com/singgel/space/doc/doccnXvLAWvnQwR8SbcHs6GIW5f#)
 
 ### HTTP序列化、反序列化相关
 

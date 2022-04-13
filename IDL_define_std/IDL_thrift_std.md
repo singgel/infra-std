@@ -1,6 +1,6 @@
 # 说明
 
-（1）本规范定义了通过Thrift IDL描述HTTP接口的方式。规范上继承[Kite Thrift IDL规范](https://bytedance.feishu.cn/wiki/wikcnnT9PKsTyMWkh4tdTCozUMd)。
+（1）本规范定义了通过Thrift IDL描述HTTP接口的方式。规范上继承[Kite Thrift IDL规范](https://github.com/singgel/wiki/wikcnnT9PKsTyMWkh4tdTCozUMd)。
 
 （2）本规范中定义的IDL注解如api.get, api.header 等，只支持小写，不支持大写或者大小写混用如api.GET, api.Header
 
@@ -232,7 +232,7 @@ struct TTNetCommonParam{
 
 }
 
-所有的请求可选择携带TTNet公共参数，具体参数说明可参考[TTNET公参梳理](https://bytedance.feishu.cn/space/doc/doccnGSpB6XoyzWSe997i4)
+所有的请求可选择携带TTNet公共参数，具体参数说明可参考[TTNET公参梳理](https://github.com/singgel/space/doc/doccnGSpB6XoyzWSe997i4)
 
 无法复制加载中的内容
 
@@ -363,7 +363,7 @@ BizResponse BizMethod3(1: biz.BizRequest req)(api.post = '/life/client/:action/:
 
 ## 多service定义（**RPC** **服务专用**）
 
-多service的使用方式与kitex中多service的使用方式类似[多Service 的使用](https://bytedance.feishu.cn/wiki/wikcnelOXKu5htX9y3iU3f3VEOe)
+多service的使用方式与kitex中多service的使用方式类似[多Service 的使用](https://github.com/singgel/wiki/wikcnelOXKu5htX9y3iU3f3VEOe)
 
 > 目前BAM平台支持多service的场景只有idl导入生成doc文档
 

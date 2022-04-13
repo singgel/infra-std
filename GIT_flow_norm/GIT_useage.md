@@ -1,4 +1,4 @@
-[git入门学习视频](https://tech.bytedance.net/videos/6844026183705690126)
+[git入门学习视频](https://github.com/singgel/videos/6844026183705690126)
 
 [git入门小游戏](https://learngitbranching.js.org/?locale=zh_CN)
 
@@ -6,7 +6,7 @@
 
 1.  # Git安装和配置
 
-参照现成教程：[Git使用](https://bytedance.feishu.cn/wiki/wikcnP20ZtPHcRK93H4GYpbkGjh)
+参照现成教程：[Git使用](https://github.com/singgel/wiki/wikcnP20ZtPHcRK93H4GYpbkGjh)
 
 2.  # Git本地仓库
 
@@ -107,7 +107,7 @@ Git简单的回退操作：https://blog.csdn.net/kikajack/article/details/798460
 
 在**git** **push**之前一定要，一定要先**git** **pull**最新代码到本地仓库，防止代码冲突。远程仓库没有处理代码冲突的功能，将代码拉取到本地仓库，处理完代码冲突再**git push**代码到远程仓库。
 
-这一部分[git入门学习视频](https://tech.bytedance.net/videos/6844026183705690126)有更为详细的讲解
+这一部分[git入门学习视频](https://github.com/singgel/videos/6844026183705690126)有更为详细的讲解
 
 3.  ### **合并本地分支**
 
