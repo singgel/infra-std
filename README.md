@@ -24,3 +24,4 @@
 
 ### serverless/无服务化函数
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)
+[理解serverless](./server_less/server_less_got.md)
