@@ -22,6 +22,6 @@
 ### kubernetes&云原生
 [kubernetes概览和简单介绍](./kubernetes_and_CNCF/kubernetes_overview.md)
 
-### serverless/无服务化函数
+### serverless&函数计算
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)
 [理解serverless](./server_less/server_less_got.md)
