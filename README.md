@@ -1,12 +1,15 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-15 11:14:54
+ * @LastEditTime: 2022-04-15 16:53:55
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
 -->
 # 基础架构
+
+### 法务合规
+[常见开源协议和使用范围](./DEV_license_risk/license_desc.md)  
 
 ### IDE的一些开发工具
 [zsh+omz的安装和配置](./IDE_DEV_tool/zsh_omz_install.md)  
