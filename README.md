@@ -1,12 +1,16 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-15 10:35:59
- * @LastEditors: your name
+ * @LastEditTime: 2022-04-15 10:53:41
+ * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
 -->
 # 基础架构
+
+### IDE的一些开发工具
+[zsh+omz的安装和配置](./IDE_DEV_tool/zsh_omz_install.md)  
+[zshrc个人习惯的推荐配置](./IDE_DEV_tool/zshrc_conf.md)
 
 ### git流程规范
 [git使用说明](./GIT_flow_norm/GIT_useage.md)  
