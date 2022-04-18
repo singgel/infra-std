@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-18 17:05:45
+ * @LastEditTime: 2022-04-18 17:17:15
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -15,7 +15,8 @@
 
 ### IDE的一些开发工具
 [zsh+omz的安装和配置](./IDE_DEV_tool/zsh_omz_install.md)  
-[zshrc个人习惯的推荐配置](./IDE_DEV_tool/zshrc_conf.md)
+[zshrc个人习惯的推荐配置](./IDE_DEV_tool/zshrc_conf.md)  
+[linux下常用排查磁盘网络性能问题](./IDE_DEV_tool/linux_OPS_command.md)
 
 ### git流程规范
 [git使用说明](./GIT_flow_norm/GIT_useage.md)  
@@ -46,3 +47,14 @@
 ### serverless&函数计算
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)  
 [理解serverless](./server_less/server_less_got.md)
+
+### 源码剖析
+[Java源码阅读](./opensource_code_reading_after/java_source_impression.md)  
+[GoLang源码阅读](./opensource_code_reading_after/golang_source_impression.md)
+
+### BAT_TMDJ技术类文章资料读后笔记
+[2018年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2018_article_impression.md)  
+[2019年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2019_article_impression.md)
+[2020年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2020_article_impression.md)
+[2021年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2021_article_impression.md)
+[2022年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2022_article_impression.md)
