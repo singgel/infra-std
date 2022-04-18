@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-18 16:58:20
+ * @LastEditTime: 2022-04-18 17:05:45
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -26,10 +26,9 @@
 [protobuf IDL文档管理规范标准](./IDL_define_std/IDL_protobuf_std.md)
 [thrift IDL文档管理规范标准](./IDL_define_std/IDL_thrift_std.md)
 
-
-### 基础中间件
+### 中间件原理与使用规范
 [MySQL的主从数据同步](./middleware_architecture/mysql_data_replicate.md)  
-[OceanBase的基础使用](./middleware_architecture/OceanBase_desc.md)  
+[OceanBase的基础使用与讲解](./middleware_architecture/OceanBase_desc.md)  
 
 ### RPC通信框架设计和规范
 [互联网常见的几种RPC框架讲解比对](./RPC_infra_desc/RPC_infra_compare.md)
