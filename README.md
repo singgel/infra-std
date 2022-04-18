@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-18 18:09:26
+ * @LastEditTime: 2022-04-18 20:47:17
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -36,6 +36,7 @@
 
 ### 服务治理
 [服务治理要做哪些事情](./SOA_governance/SOA_governance_view.md)  
+[阿里-微服务治理技术白皮书](./SOA_governance/微服务治理技术白皮书.pdf)  
 
 ### service mesh/服务网格
 [服务网格的发展历史](./service_mesh/service_mesh_history.md)  
