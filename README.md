@@ -1,12 +1,14 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-15 16:53:55
+ * @LastEditTime: 2022-04-18 16:58:20
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
 -->
 # 基础架构
+### 给以后的自己
+[给以后的自己留言](./TalkToMyself.md)  
 
 ### 法务合规
 [常见开源协议和使用范围](./DEV_license_risk/license_desc.md)  
@@ -23,6 +25,11 @@
 [IDL文档管理规范标准](./IDL_define_std/IDL_std.md)  
 [protobuf IDL文档管理规范标准](./IDL_define_std/IDL_protobuf_std.md)
 [thrift IDL文档管理规范标准](./IDL_define_std/IDL_thrift_std.md)
+
+
+### 基础中间件
+[MySQL的主从数据同步](./middleware_architecture/mysql_data_replicate.md)  
+[OceanBase的基础使用](./middleware_architecture/OceanBase_desc.md)  
 
 ### RPC通信框架设计和规范
 [互联网常见的几种RPC框架讲解比对](./RPC_infra_desc/RPC_infra_compare.md)
