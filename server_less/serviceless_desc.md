@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2022-04-13 11:19:14
+ * @LastEditTime: 2022-04-21 14:27:11
+ * @LastEditors: your name
+ * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ * @FilePath: /infra-std/server_less/serviceless_desc.md
+-->
 ## 概念
 
 Serverless，正如其字面意义，是一种“无服务器架构”。它并不指代某种技术，或某种实现。这个概念比较贴近于RESTful之于HTTP API设计，微服务之于后端架构，类似于一种“设计思路”。
@@ -48,9 +56,6 @@ AWS Lambda可以简单地与S3（对象存储）、DynamoDB （关系存储）�
 
 Ref:[ AWS Lambda官方介绍](https://aws.amazon.com/cn/lambda/)
 
-### LarkCloud
-
-LarkCloud（轻服务）是字节跳动开发的Serverless平台，目前与字节云尚无联动。但自身实现了定时任务、关系存储、页面托管、Redis、用户管理、文件存储、日志、部分AI功能。目前支持HTTP和Thrift两种接口形态，语言方面仅支持Node.js。
 
 
 
