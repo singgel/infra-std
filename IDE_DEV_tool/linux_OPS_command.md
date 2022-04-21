@@ -1,12 +1,12 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-18 17:08:59
- * @LastEditTime: 2022-04-18 17:08:59
+ * @LastEditTime: 2022-04-21 11:36:57
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /infra-std/IDE_DEV_tool/linux_OPS_command.md
 -->
-
+# 磁盘
 ## linux查看哪个进程占用磁盘IO  
 $ vmstat 2  
 执行vmstat命令，可以看到r值和b值较高，r 表示运行和等待cpu时间片的进程数，如果长期大于1，说明cpu不足，需要增加cpu。  
@@ -57,3 +57,10 @@ $ netstat -antvp tcp
 使用 netstat 命令查看连接数
 
 ### [Linux网络监控工具大全](https://baijiahao.baidu.com/s?id=1683499342813958473&wfr=spider&for=pc)
+
+----
+# curl
+$ curl http://XXX |python -m json.tool  | python -m
+格式化json输出  
+
+
