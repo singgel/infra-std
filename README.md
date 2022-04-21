@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-21 15:32:52
+ * @LastEditTime: 2022-04-21 15:34:38
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -20,13 +20,13 @@
 
 ### git流程规范
 [git使用说明](./GIT_flow_norm/GIT_useage.md)  
-[git code review怎么做](./GIT_flow_norm/GIT_code_review.md)
-[上线流程和checklist](./GIT_flow_norm/RD_deploy_checklist.md)
+[git code review怎么做](./GIT_flow_norm/GIT_code_review.md)  
+[上线流程和checklist](./GIT_flow_norm/RD_deploy_checklist.md)  
 
 ### IDL描述文件规范和管理
 [IDL文档管理规范标准](./IDL_define_std/IDL_std.md)  
-[protobuf IDL文档管理规范标准](./IDL_define_std/IDL_protobuf_std.md)
-[thrift IDL文档管理规范标准](./IDL_define_std/IDL_thrift_std.md)
+[protobuf IDL文档管理规范标准](./IDL_define_std/IDL_protobuf_std.md)  
+[thrift IDL文档管理规范标准](./IDL_define_std/IDL_thrift_std.md)  
 
 ### 中间件原理与使用规范
 [MySQL的主从数据同步](./middleware_architecture/mysql_data_replicate.md)  
