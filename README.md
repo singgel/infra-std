@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 12:11:11
+ * @LastEditTime: 2022-04-22 12:12:44
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -62,7 +62,7 @@
 [李亮亮的技术文章摘抄](https://learn.lianglianglee.com/)  
 
 ### 源码剖析
-[如何阅读源码](./opensource_code_reading_after/how_to_join_opensource.md)
+[如何阅读源码](./opensource_code_reading_after/how_to_join_opensource.md)  
 [Java源码阅读](./opensource_code_reading_after/java_source_impression.md)  
 [GoLang源码阅读](./opensource_code_reading_after/golang_source_impression.md)
 
