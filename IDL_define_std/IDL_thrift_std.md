@@ -57,7 +57,7 @@ struct Item{
 TTNet通用参数thrift定义
 
 
-所有的请求可选择携带TTNet公共参数，具体参数说明可参考[TTNET公参梳理](https://github.com/singgel/space/doc/doccnGSpB6XoyzWSe997i4)
+所有的请求可选择携带TTNet公共参数，具体参数说明可参考[TTNET公参梳理]
 
 无法复制加载中的内容
 

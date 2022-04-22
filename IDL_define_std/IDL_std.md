@@ -1,13 +1,11 @@
 # 背景
 
-[API&脚手架总体设计](https://github.com/singgel/space/doc/doccn0Dw1i5wlegwVNQsT3)
-
-当前公司HTTP&RPC API缺乏管理，RPC服务端内部统一使用thrift+kite，但IDL比较散落；HTTP接口存在无文档、wiki/doc定义，thrift/pb定义等多种方式。
+当前HTTP&RPC API缺乏管理，RPC服务端内部统一使用thrift+kite，但IDL比较散落；HTTP接口存在无文档、wiki/doc定义，thrift/pb定义等多种方式。
 
 在HTTP API规范上，公司内有多个团队进行过此类尝试，遇到过以下问题：
 
 1.  API定义与代码脱节，导致无法持续维护
-1.  各团队IDL编写风格不一致
+2.  各团队IDL编写风格不一致
 
 RPC API存在以下问题：
 
@@ -149,8 +147,6 @@ struct BizRequest {
 ### 公共参数
 
 关注方：服务端用户RD、服务端脚手架、apigateway
-
-公司级公参抽象公共的ttnet参数，业务方关注可直接引用
 
 app级公参由各app自行定义
 
