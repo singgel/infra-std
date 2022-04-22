@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 17:46:10
+ * @LastEditTime: 2022-04-22 17:47:35
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -81,7 +81,7 @@
 [Java知识体系](https://github.com/singgel/java)  
 [GoLang源码阅读](./opensource_code_reading_after/golang_source_impression.md)  
 [Go知识体系](https://github.com/singgel/golang)  
-#### 中间件debug
+#### 中间件源码debug
 [Redis源码阅读与调试](./opensource_code_reading_after/redis_code_debug_impression.md)  
 [k8s源码阅读与调试](./opensource_code_reading_after/k8s_code_debug_impression.md)  
 
