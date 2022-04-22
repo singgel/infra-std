@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 15:46:05
+ * @LastEditTime: 2022-04-22 17:45:04
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -51,10 +51,10 @@
 [服务网格的发展历史](./service_mesh/service_mesh_history.md)  
 [为什么使用服务网格](./service_mesh/service_mesh_why.md)  
 
-### kubernetes&云原生
-[kubernetes概览和简单介绍](./kubernetes_and_CNCF/kubernetes_overview.md)  
+### Kubernetes&云原生
+[Kubernetes概览和简单介绍](./Kubernetes_and_CNCF/Kubernetes_overview.md)  
 [基于Jenkins的k8s CICD部署](https://github.com/singgel/sharelibrary)  
-[k8s经验与错误排查](https://github.com/singgel/kubernetes-operation-case)  
+[k8s经验与错误排查](https://github.com/singgel/Kubernetes-operation-case)  
 
 ### serverless&函数计算
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)  
@@ -80,6 +80,8 @@
 [Java知识体系](https://github.com/singgel/java)  
 [GoLang源码阅读](./opensource_code_reading_after/golang_source_impression.md)  
 [Go知识体系](https://github.com/singgel/golang)  
+[Redis源码阅读与调试](./opensource_code_reading_after/redis_code_debug_impression.md)
+[k8s源码阅读与调试](./opensource_code_reading_after/k8s_code_debug_impression.md)
 
 ### BAT_TMDJ技术类文章资料读后笔记
 [2018年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2018_article_impression.md)  
