@@ -402,13 +402,13 @@ extend google.protobuf.FieldOptions {
 
 syntax = "proto3";
 
-package mobile_agw.sample;
+package mobile.sample;
 
 import "api.proto";
 
 option go_package = "pb_idl";
 
-option java_package = "mobile_agw.sample";
+option java_package = "mobile.sample";
 
 // Sample Enum
 

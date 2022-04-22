@@ -54,12 +54,12 @@ Pod运行所在的工作主机，包含容器运行时(docker)，kubelet 和 kub
 
             -   Input: Pod期待副本数N，Label 选择器，Pod创建模板。
             -   Perform: 定期检查并调整当前存活的Pod数为N。
-            -   可实现TCE/水平扩缩容
+            -   可实现水平扩缩容
 
         -   [Deployment](https://kubernetes.io/zh/docs/concepts/workloads/controllers/deployment/)
 
             -   底层会操作ReplicaSet完成升级、回滚。
-            -   可实现TCE/创建服务、服务升级、服务回滚。
+            -   可实现创建服务、服务升级、服务回滚。
 
         -   [Job](https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/)
 
@@ -76,7 +76,7 @@ Pod运行所在的工作主机，包含容器运行时(docker)，kubelet 和 kub
         -   [Horizontal Pod AutoScaler](https://kubernetes.io/zh/docs/tasks/run-application/horizontal-pod-autoscale/)
 
             -   根据CPU或自定义指标动态Pod扩缩容。
-            -   可实现TCE/自动扩容
+            -   可实现自动扩容
 
 -   ### [Namespace](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 

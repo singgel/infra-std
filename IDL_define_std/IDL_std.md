@@ -189,30 +189,6 @@ BizResponse BizMethod1(1: biz.BizRequest req)(api.get = '/life/client/:action/:b
 | api.param   | string | 客户端请求是否需要带上公共参数                                 | true 或 false，默认true |
 | api.baseurl | string | ttnet选路时使用的baseurl，由当前开发模式debug/release，appid决定 | 如ib.snssdk.com      |
 
-### APIGateway能力
-
-关注方：接入AGW http2thrift的服务端RD、apigateway
-
-接口参数如需通用服务数据，如反爬反作弊结果，可以直接在接口req中添加对应字段，部分需要引入对应的include，注意不需要的参数不需要填，agw根据配置的列表进行通用服务请求&填充。只对thrift v3接入agw生效。
-
-include "agw_common_param.thrift"
-
-include "../device/device_info.thrift"
-
-include "../webarch/shark_antispam.thrift"
-
-include "../cloudpush/location_service.thrift"
-
-include "../abtest_version.thrift"
-
-// struct Name 必须是AgwCommonParam
-
-// field id和各种通用参数字段的顺序以及对应关系随意，不需要完全一样,
-
-// 实际会根据field的类型名做匹配
-
-// 后面有改动的时候，一样遵循IDL兼容性即可（一般只能新增field）
-
 
 ## 其他能力
 

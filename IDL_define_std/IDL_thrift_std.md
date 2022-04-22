@@ -37,47 +37,6 @@ struct Item{
 
 }
 
-typedef string JsonDict
-
-struct BizRequest {
-
-    1: optional i64 v_int64(api.query = 'v_int64', api.vd = "$>0&&$<200")// 对应http query中的v_int64, 且值范围为(0,200)
-
-    2: optional string text(api.body = 'text')// 对应序列化key = text
-
-    3: optional i32 token(api.header = 'token')//对应http header中的token
-
-    4: optional JsonDict json_header(api.header = 'json_header')
-
-    5: optional Item some(api.body = 'some')//对应一级key = some
-
-    6: optional list<ReqItem> req_items(api.query = 'req_items')
-
-                              //api.query仅支持逗号相隔的list,其他复杂类型不支持
-
-    7: optional i32 api_version(api.path = 'action')// 对应uri的path参数
-
-    8: optional i64 uid(api.path = 'biz')//对应uri的path参数
-
-    9: optional list<i64> cids(api.query = 'cids')
-
-// 对应query里面逗号隔开的数字, 如 cids=1,2,3,4仅支持list<i64>、list<i32>
-
-    10: optional list<string> vids(api.query = 'vids')
-
-// 对应query里面逗号隔开的字符串 如  vids=a,b,c,d   仅支持 list<string>
-
-    252: optional BizCommonParam biz_common_param //业务公参，下文说明
-
-    253: optional TTNetCommonParam ttnet_common_param //TTNET公共参数，下文说明
-
-    254: optional AgwCommonParam agw_common_param // AGW loader通用参数，下文说明，仅在接入agw情况下使用
-
-    255: optional base.Base Base 
-
-}
-```
-
 ### **注解说明**
 
 | **注解**     | **说明**                                                                                                                                                                                                                                                                                                                                                                                                     |
