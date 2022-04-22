@@ -203,7 +203,7 @@ Before using BAM PB IDL annotations , the PB extension file for annotations must
 
 //code generage is the following 上述生成代码后错误类型对象值为
 
-{
+```{
 
 HttpCode: 200,
 
@@ -231,7 +231,7 @@ Code: 2,
 
 Message: "NoRetry",
 
-},
+},```
 # 注意事项(Notice )
 
 Pb IDL文件请勿在注解中写入转义符 \ ，pb解析不支持,例如：(go.tag = 'json:\"omitempty\"')会报错，(go.tag = 'json:"omitempty"')可正常解析
