@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 13:59:48
+ * @LastEditTime: 2022-04-22 15:46:05
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -10,6 +10,13 @@
 
 ### 法务合规
 [常见开源协议和使用范围](./DEV_license_risk/license_desc.md)  
+
+### 编码规范
+[Google编码规范涵盖所有语言](https://google.github.io/styleguide/)  
+[C语言编码规范](./code_style_define/C_coding_style.md)  
+[C++语言编码规范](./code_style_define/C%2B%2B_coding_style.md)  
+[go语言编码规范](./code_style_define/golang_coding_style.md)  
+[java语言编码规范](https://edu.aliyun.com/certification/cldt02?spm=a2c6h.12873639.article-detail.6.357737bfB6n6Nl)  
 
 ### IDE的一些开发工具
 [zsh+omz的安装和配置](./IDE_DEV_tool/zsh_omz_install.md)  
