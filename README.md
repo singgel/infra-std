@@ -1,14 +1,12 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 12:12:44
+ * @LastEditTime: 2022-04-22 12:15:39
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
 -->
 # 基础架构
-### 给以后的自己
-[给以后的自己留言](./TalkToMyself.md)  
 
 ### 法务合规
 [常见开源协议和使用范围](./DEV_license_risk/license_desc.md)  
@@ -57,6 +55,7 @@
 [DNS和HTTP—DNS](./NET_architecture/DNS_HTTPDNS_desc.md)
 
 ---
+# 尚未归类
 
 ### 一个相同方向上的前辈
 [李亮亮的技术文章摘抄](https://learn.lianglianglee.com/)  
@@ -72,3 +71,6 @@
 [2020年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2020_article_impression.md)  
 [2021年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2021_article_impression.md)  
 [2022年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2022_article_impression.md)
+
+### 给以后的自己
+[给以后的自己留言](./TalkToMyself.md)  
