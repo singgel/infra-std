@@ -154,15 +154,6 @@ struct BizRequest {
 
 app级公参由各app自行定义
 
-struct EchoRequest {
-
-1: string Message,
-
-253: ToutiaoAppCommonParam TTCommonParam, //结构体名以CommonParam结尾，认为是公参
-
-254： TTNetCommonParam TTNetCommonParam
-
-}
 
 ### HTTP接口映射
 
@@ -222,26 +213,6 @@ include "../abtest_version.thrift"
 
 // 后面有改动的时候，一样遵循IDL兼容性即可（一般只能新增field）
 
-struct AgwCommonParam {
-
-1: optional agw_common_param.Session Session
-
-}
-
-| **类型**                                   | **说明**           | **数据来源**                    | **来源idl**                                                                                                                                         | **字段示例**                                  |
-| ---------------------------------------- | ---------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| agw_common_param.CommonArgs              | 通用query参数        | 客户端                         | [api_gateway/agw_common_param.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=api_gateway/agw_common_param.thrift;hb=HEAD) | version_code、device_platform、os_api...    |
-| agw_common_param.UnifyArgs               | 标准化参数            | API Gateway                 | [api_gateway/agw_common_param.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=api_gateway/agw_common_param.thrift;hb=HEAD) | product_id、access_type、is_ios、app_name... |
-| agw_common_param.Session                 | 已登陆的用户session信息  | toutiao.passport.session_v2 | [api_gateway/agw_common_param.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=api_gateway/agw_common_param.thrift;hb=HEAD) | UserId                                    |
-| agw_common_param.OdinInfo                | 用户odin信息         | toutiao.user.odin           | [api_gateway/agw_common_param.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=api_gateway/agw_common_param.thrift;hb=HEAD) | Uid、UidType、UserIsAuth...                 |
-| agw_common_param.DidCheckResult          | device_id合法性检查结果 | toutiao.device.device_info  | [api_gateway/agw_common_param.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=api_gateway/agw_common_param.thrift;hb=HEAD) | DidIllegal                                |
-| agw_common_param.UserInfo                | 当前用户信息           | toutiao.user.info           | [api_gateway/agw_common_param.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=api_gateway/agw_common_param.thrift;hb=HEAD) | Name、AvatarUrl、MediaId、UserAuthInfo...    |
-| agw_commom_param.WhaleResult             | 反爬判定结果           | webarch.whale.antickite     | [api_gateway/agw_common_param.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=api_gateway/agw_common_param.thrift;hb=HEAD) | Decision、CustomConf、BlockConf、MockConf    |
-| shark_antispam.MultiAntispamResult       | 反作弊结果            | webarch.shark.antispam      | [webarch/shark_antispam.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=webarch/shark_antispam.thrift;hb=HEAD)             |                                           |
-| abtest.VersionRsp                        | abtest 参数        | data.abtest.versionmanager  | [abtest_version.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=abtest_version.thrift;hb=HEAD)                             |                                           |
-| location_service.GetLocationInfoResponse | 地理位置信息           | cloudpush.location.location | [cloudpush/location_service.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=cloudpush/location_service.thrift;hb=HEAD)     |                                           |
-| device_info.Device                       | 设备信息             | toutiao.device.device_info  | [device/device_info.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=device/device_info.thrift;hb=HEAD)                     |                                           |
-| device_info.Installation                 | 安装信息             | toutiao.device.device_info  | [device/device_info.thrift](https://review.byted.org/gitweb?p=service_rpc/idl.git;a=blob;f=device/device_info.thrift;hb=HEAD)                     |                                           |
 
 ## 其他能力
 

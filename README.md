@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-21 15:34:38
+ * @LastEditTime: 2022-04-22 11:36:47
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -46,11 +46,15 @@
 
 ### kubernetes&云原生
 [kubernetes概览和简单介绍](./kubernetes_and_CNCF/kubernetes_overview.md)
+[基于Jenkins的k8s CICD部署](https://github.com/singgel/sharelibrary)
 
 ### serverless&函数计算
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)  
 [理解serverless](./server_less/server_less_got.md)
 
+### 网络架构
+[CDN网络架构](./NET_architecture/CDN_net_desc.md)  
+[DNS和HTTP—DNS](./NET_architecture/DNS_HTTPDNS_desc.md)
 
 ---
 
