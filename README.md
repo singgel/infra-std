@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 12:18:49
+ * @LastEditTime: 2022-04-22 13:58:27
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -33,6 +33,8 @@
 
 ### RPC通信框架设计和规范
 [互联网常见的几种RPC框架讲解比对](./RPC_infra_desc/RPC_infra_compare.md)  
+[RPC最基础版纯Java源码实现](https://github.com/singgel/RPC-SkillTree)  
+[gRPC框架JAVA版本](https://github.com/singgel/grpc-infra)  
 
 ### 服务治理
 [服务治理要做哪些事情](./SOA_governance/SOA_governance_view.md)  
@@ -45,6 +47,7 @@
 ### kubernetes&云原生
 [kubernetes概览和简单介绍](./kubernetes_and_CNCF/kubernetes_overview.md)  
 [基于Jenkins的k8s CICD部署](https://github.com/singgel/sharelibrary)  
+[k8s经验与错误排查](https://github.com/singgel/kubernetes-operation-case)  
 
 ### serverless&函数计算
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)  
@@ -67,7 +70,9 @@
 ### 源码剖析
 [如何阅读源码](./opensource_code_reading_after/how_to_join_opensource.md)  
 [Java源码阅读](./opensource_code_reading_after/java_source_impression.md)  
+[Java知识体系](https://github.com/singgel/java)  
 [GoLang源码阅读](./opensource_code_reading_after/golang_source_impression.md)  
+[Go知识体系](https://github.com/singgel/golang)  
 
 ### BAT_TMDJ技术类文章资料读后笔记
 [2018年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2018_article_impression.md)  
