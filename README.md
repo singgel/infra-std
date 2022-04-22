@@ -7,7 +7,7 @@
  * @FilePath: /infra-std/README.md
 -->
 # 基础架构
-本仓库更多是关于团队技术leader层面的视角，把控技术演进和流程规范，打造高性能和稳定性的基架，不涉及单向技术深度，单向技术深度查看github下的其他仓库  
+本仓库更多是关于团队技术leader层面的视角，把控技术演进和流程规范，打造高性能和稳定性的基架，不涉及单项深度，单项[查看github下的其他仓库](https://github.com/singgel?tab=repositories)  
 
 ### 法务合规
 [常见开源协议和使用范围](./DEV_license_risk/license_desc.md)  
