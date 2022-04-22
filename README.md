@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 13:58:27
+ * @LastEditTime: 2022-04-22 13:59:48
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -51,7 +51,7 @@
 
 ### serverless&函数计算
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)  
-[理解serverless](./server_less/server_less_got.md)
+[理解serverless](./server_less/server_less_got.md)  
 
 ### 网络架构
 [CDN网络架构](./NET_architecture/CDN_net_desc.md)  
