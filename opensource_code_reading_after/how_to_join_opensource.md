@@ -1,11 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-22 11:58:33
- * @LastEditTime: 2022-04-22 12:09:03
+ * @LastEditTime: 2022-04-22 12:14:02
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /infra-std/opensource_code_reading_after/how_to_join_opensource.md
 -->
+摘自[李云华：如何高效阅读源码](https://time.geekbang.org/column/article/186778)  
+
 ## 前置想说的
 * 不管是干什么,都可以学习开源项目,不是说只有开源社区才可以  
 
@@ -13,6 +15,7 @@
 
 ## 误区
 “Talk is cheap, show me the code”，一头扎进源码逐行阅读  
+---
 
 ## 源码研究步骤
 1. 安装 
