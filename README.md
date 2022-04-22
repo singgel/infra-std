@@ -1,12 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 17:47:35
+ * @LastEditTime: 2022-04-22 17:51:45
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
 -->
 # 基础架构
+本仓库更多是关于团队技术leader层面的视角，把控技术演进和流程规范，打造高性能和稳定性的基架，不涉及单向技术深度，单向技术深度查看github下的其他仓库  
 
 ### 法务合规
 [常见开源协议和使用范围](./DEV_license_risk/license_desc.md)  
