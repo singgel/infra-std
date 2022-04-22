@@ -1,5 +1,3 @@
-ByteDance C++ Style Guide
-
 # 0、前言
 
 Thus, programs must be written for people to read, and only incidentally for machines to execute.
@@ -208,8 +206,6 @@ if 和左圆括号之间有空格。
 右圆括号和左大括号之间有空格。
 
 单行语句也必须使用大括号。就说是，大括号必不可少。[不加括号的一个bug见这里。](https://coolshell.cn/articles/11112.html)
-
-if 语句是很复杂的，想写好，请参见这里 [怎么写 if 语句](https://wiki.bytedance.net/pages/viewpage.action?pageId=52889466)。
 
 ```
 // 大括号不可少
@@ -1077,32 +1073,6 @@ pragma once vs include guards 的讨论，参见[这里](https://stackoverflow.c
 比如您要用到 bar.h 中的某个符号，哪怕您所包含的 foo.h 已经包含了 bar.h，也照样得包含 bar.h，除非 foo.h 有明确说明它会自动向您提供 bar.h 中的 symbol。
 
 不过，凡是 cpp 文件所对应的「相关头文件」已经包含的，就不用再重复包含进其 cpp 文件里面了，就像 foo.cpp 只包含 foo.h 就够了，不用再管后者所包含的其它内容。
-
-举例来说，bytedance-awesome-project/src/foo/internal/fooserver.cpp 的包含次序如下：
-
-```
-#include "foo/public/fooserver.h" // cpp文件对应的相关头文件，优先位置
-
-
-
-#include <sys/types.h>  // C 库头文件
-
-#include <unistd.h>
-
-
-
-#include <hash_map> // C++ 库头文件
-
-#include <vector>
-
-
-
-#include "base/basictypes.h"  //  本项目的其他头文件
-
-#include "base/commandlineflags.h"
-
-#include "foo/public/bar.h"
-```
 
 # 5、作用域
 
@@ -2076,8 +2046,6 @@ auto y = [&r = x, x = x + 1]()->int {
 **【规范】**
 
 使用 BUILD 文件，而不是Makefile。
-
-这里有一篇很赞的 [Blade使用手册(最新更新2020-12-24）](https://bytedance.feishu.cn/wiki/wikcnqnojHWxHyXMTLUVHwZzTug) 。
 
 除非历史项目，BUILD 文件中应设置"-Werror"，将所有warning视为error。
 

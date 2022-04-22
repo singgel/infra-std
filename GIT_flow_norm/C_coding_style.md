@@ -394,16 +394,6 @@ int main(void)
 
 TODO、HACK、FIXME 这些标识的注释可以出现在任何地方，但也属于细节内容，不应被 Doxygen 识别写进文档，故也采用常规的双斜线“//”注释，同时要添加小括号，括号内要写上邮箱前缀。
 
-```
-// TODO(huanghaobo): “TODO”的内容，括号内是“huanghaobo@bytedance.com”的前缀
-
-
-
-// FIXME(wangze): “FIXME”的内容，括号内是“wangze@bytedance.com”的前缀
-
-
-
-// HACK(huanghaobo): “HACK”的内容，若需多行注释，直接换行，无需再行末添加“\n”
 
 // “HACK”内容第二行
 ```
