@@ -93,5 +93,3 @@
 [2021年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2021_article_impression.md)  
 [2022年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2022_article_impression.md)  
 
-### 给以后的自己
-[给以后的自己留言](./TalkToMyself.md)  
