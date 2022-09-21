@@ -6,7 +6,12 @@
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: /infra-std/IDE_DEV_tool/linux_OPS_command.md
 -->
-# 磁盘
+
+# curl
+$ curl http://XXX |python -m json.tool  | python -m
+格式化json输出  
+
+# 磁盘  
 ## linux查看哪个进程占用磁盘IO  
 $ vmstat 2  
 执行vmstat命令，可以看到r值和b值较高，r 表示运行和等待cpu时间片的进程数，如果长期大于1，说明cpu不足，需要增加cpu。  
@@ -46,21 +51,25 @@ $ fuser -m /dev/sdb
 $ lsof /dev/sdb  
 查看正在被使用的文件，losf命令是list open file的缩写
 
+$ ulimit -a  
+查看一个进程能打开多少文件句柄  
+
+---  
 ### [Mac中的一些网络命令](https://tonydeng.github.io/2016/07/07/use-lsof-to-replace-netstat/)
-$ lsof -itcp -n
-当前用户名下启动的链接数
+$ lsof -itcp -n  
+当前用户名下启动的链接数  
 
-$ lsof -itcp -stcp:listen
-当前用户名下监听的端口
+$ lsof -itcp -stcp:listen  
+当前用户名下监听的端口  
 
-$ netstat -antvp tcp
-使用 netstat 命令查看连接数
+$ netstat -antvp tcp  
+使用 netstat 命令查看连接数  
 
+---  
 ### [Linux网络监控工具大全](https://baijiahao.baidu.com/s?id=1683499342813958473&wfr=spider&for=pc)
+$ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'  
+tcp连接状态和连接数  
 
-----
-# curl
-$ curl http://XXX |python -m json.tool  | python -m
-格式化json输出  
-
-
+$ tcpdump -i p3p1 icmp  
+$ tcpdump -i br0 -nneevvv host 10.207.146.55 and icmp  
+在p3p1上tcpdump抓包看看icmp为啥被超时了  
