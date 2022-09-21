@@ -47,15 +47,23 @@ async:适用缓存，默认方式。
 
 ---
 # 文件
-### 文件句柄
+### 进程占用
 $ fuser -m /dev/sdb  
 查看文件系统占用的进程
 
 $ lsof /dev/sdb  
 查看正在被使用的文件，losf命令是list open file的缩写
 
+---
+### [文件句柄](https://cloud.tencent.com/developer/article/1810406)  
 $ ulimit -a  
-查看一个进程能打开多少文件句柄  
+查看一个进程能打开多少文件句柄，其中3个是：标准输入、标准输出、标准错误。  
+
+$ lsof -n|awk '{print $2}'| sort | uniq -c | sort -nr | head
+统计进程的句柄占用
+
+$ sudo strace -p 106954
+追踪当前进程正在干什么
 
 ---  
 # 网络
