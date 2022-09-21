@@ -7,7 +7,7 @@
  * @FilePath: /infra-std/IDE_DEV_tool/linux_OPS_command.md
 -->
 
-# curl
+### curl
 $ curl http://XXX |python -m json.tool  | python -m
 格式化json输出  
 
@@ -33,7 +33,7 @@ $ dstat --top-bio-adv
 $ pidstat -d 1  
 命令的含义：展示I/O统计，每秒更新一次  
 
-### [Linux 挂载管理(mount)](https://www.cnblogs.com/chenmh/p/5097530.html)
+### [Linux 挂载管理(mount)](https://www.cnblogs.com/chenmh/p/5097530.html)  
 $ vim /etc/fstab  
 mount挂载分区在系统重启之后需要重新挂载，修改/etc/fstab文件可使挂载永久生效
 
@@ -45,6 +45,9 @@ remount:重新挂载文件系统。
 noatime:每次访问文件时不更新文件的访问时间。
 async:适用缓存，默认方式。
 
+---
+# 文件
+### 文件句柄
 $ fuser -m /dev/sdb  
 查看文件系统占用的进程
 
@@ -53,6 +56,16 @@ $ lsof /dev/sdb
 
 $ ulimit -a  
 查看一个进程能打开多少文件句柄  
+
+---  
+# 网络
+### [Linux网络监控工具大全](https://baijiahao.baidu.com/s?id=1683499342813958473&wfr=spider&for=pc)
+$ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'  
+tcp连接状态和连接数  
+
+$ tcpdump -i p3p1 icmp  
+$ tcpdump -i br0 -nneevvv host 10.207.146.55 and icmp  
+在p3p1上tcpdump抓包看看icmp为啥被超时了  
 
 ---  
 ### [Mac中的一些网络命令](https://tonydeng.github.io/2016/07/07/use-lsof-to-replace-netstat/)
@@ -64,12 +77,3 @@ $ lsof -itcp -stcp:listen
 
 $ netstat -antvp tcp  
 使用 netstat 命令查看连接数  
-
----  
-### [Linux网络监控工具大全](https://baijiahao.baidu.com/s?id=1683499342813958473&wfr=spider&for=pc)
-$ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'  
-tcp连接状态和连接数  
-
-$ tcpdump -i p3p1 icmp  
-$ tcpdump -i br0 -nneevvv host 10.207.146.55 and icmp  
-在p3p1上tcpdump抓包看看icmp为啥被超时了  
