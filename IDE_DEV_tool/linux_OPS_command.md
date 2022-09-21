@@ -71,9 +71,23 @@ $ sudo strace -p 106954
 $ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'  
 tcp连接状态和连接数  
 
+
+---
+### [tcpdump工具](https://cloud.tencent.com/developer/article/1730820)
 $ tcpdump -i p3p1 icmp  
 $ tcpdump -i br0 -nneevvv host 10.207.146.55 and icmp  
 在p3p1上tcpdump抓包看看icmp为啥被超时了  
+
+### [ethtool工具](https://developer.aliyun.com/article/544872)
+$ ethtool –S ethX
+查询网卡上收发包统计
+
+### [dig工具](https://www.dounaite.com/article/629dfea60eb48b8cec76c300.html)
+$ Dig www.163.com + trace
+首先从根域名（.）获得负责.com域名的服务器,从.com域服务器获得负责163.com的域名服务器,从负责163.com的域名服务器中查询到所需的记录
+
+$ nslookup -qt=mx jd.com
+指定DNS查询服务器和查询不同的DNS记录，包括A记录、CNAME记录、MX记录等。
 
 ---  
 ### [Mac中的一些网络命令](https://tonydeng.github.io/2016/07/07/use-lsof-to-replace-netstat/)
