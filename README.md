@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2022-04-22 17:55:23
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-01-30 03:54:19
+ * @LastEditors: 阿拉斯加大闸蟹 hekuangsheng@163.com
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
 -->
@@ -67,6 +67,7 @@
 
 ### 多活容灾架构
 [网关改造](https://blog.csdn.net/singgel/article/details/122701839)  
+[流量调度](https://wbuntu.com/deploy-a-doh-service/)  
 [服务单元化]()  
 
 ---
@@ -93,3 +94,5 @@
 [2021年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2021_article_impression.md)  
 [2022年各大厂技术合集](./BAT_TMDJ_webChat_abstract/2022_article_impression.md)  
 
+### 多活案例
+[作业帮多云架构设计与实践](https://mp.weixin.qq.com/s/5grTPT-ICkJy7He2fGOkWw)  
