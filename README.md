@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2023-02-15 02:53:20
+ * @LastEditTime: 2023-02-15 02:57:18
  * @LastEditors: 阿拉斯加大闸蟹 hekuangsheng@163.com
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -100,3 +100,4 @@
 
 ### 多活案例
 [作业帮多云架构设计与实践](https://mp.weixin.qq.com/s/5grTPT-ICkJy7He2fGOkWw)  
+[雪球行情多活建设](https://mp.weixin.qq.com/s/O7HH03unTwo_JbOtmz8m2A)  
