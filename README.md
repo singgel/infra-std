@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2022-04-13 11:30:35
- * @LastEditTime: 2023-01-30 03:54:19
+ * @LastEditTime: 2023-02-15 02:59:01
  * @LastEditors: 阿拉斯加大闸蟹 hekuangsheng@163.com
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE 
  * @FilePath: /infra-std/README.md
@@ -61,9 +61,13 @@
 [什么是serverless，要做哪些事](./server_less/serviceless_desc.md)  
 [理解serverless](./server_less/server_less_got.md)  
 
+### openstack&云计算  
+[VPC虚拟网络](./OpenStack_IaaS/VPC_desc.md)  
+
 ### 网络架构
 [CDN网络架构](./NET_architecture/CDN_net_desc.md)  
 [DNS和HTTP—DNS](./NET_architecture/DNS_HTTPDNS_desc.md)  
+[应用网络时延UE](./NET_architecture/NET_UE_latency.md)  
 
 ### 多活容灾架构
 [网关改造](https://blog.csdn.net/singgel/article/details/122701839)  
@@ -96,3 +100,4 @@
 
 ### 多活案例
 [作业帮多云架构设计与实践](https://mp.weixin.qq.com/s/5grTPT-ICkJy7He2fGOkWw)  
+[雪球行情多活建设-#亲自操刀#](https://mp.weixin.qq.com/s/O7HH03unTwo_JbOtmz8m2A)  
