@@ -1,11 +1,3 @@
-<!--
- * @Author: your name
- * @Date: 2022-04-22 11:00:13
- * @LastEditTime: 2022-04-22 11:31:54
- * @LastEditors: Please set LastEditors
- * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- * @FilePath: /infra-std/NET_architecture/CDN_net_desc.md
--->
 # 简介
 
 CDN **(content delivery/distribution network)** 内容分发网络，是由代理服务器及其数据中心组成的地理分布网络。目标是通过相对于最终用户在空间上分布服务来提供高可用性和性能。CDN 是涵盖不同类型的内容交付服务的统称，包括视频流、软件下载、web等内容。
