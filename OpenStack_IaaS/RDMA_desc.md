@@ -48,6 +48,6 @@ iWARP中的可靠性由协议本身提供，因为TCP/IP为可靠传输。相比
 # 参考资料
 - [基于融合以太网的RDMA-wikipedia.](https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E8%9E%8D%E5%90%88%E4%BB%A5%E5%A4%AA%E7%BD%91%E7%9A%84RDMA)
 - [远程直接内存访问 - wikipedia.](https://zh.wikipedia.org/wiki/%E8%BF%9C%E7%A8%8B%E7%9B%B4%E6%8E%A5%E5%86%85%E5%AD%98%E8%AE%BF%E9%97%AE)
-[RDMA专栏-知乎](https://www.zhihu.com/column/rdmatechnology)
-[RDMA技术详解（一）：RDMA概述 - 知乎.](https://zhuanlan.zhihu.com/p/55142557)
+- [RDMA专栏-知乎](https://www.zhihu.com/column/rdmatechnology)
+- [RDMA技术详解（一）：RDMA概述 - 知乎.](https://zhuanlan.zhihu.com/p/55142557)
 https://en.wikipedia.org/wiki/IWARP
